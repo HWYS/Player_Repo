@@ -1,0 +1,49 @@
+/*.form-select option{
+    color: #FFFFFF !important;
+}*/
+/*.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #f3969a;
+}
+
+select{
+    
+    padding:5px;
+}
+
+option{
+    background: #6C757D;
+    height: 50px;
+}
+
+option:hover{
+    background: #000000;
+    color: #c51f1f;
+}*/
+html, body {
+    min-height: 100%;
+}
+ 
+select {
+    line-height: 50px;
+    font: inherit;
+}
+option{
+    background: #6C757D;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+option:hover{
+    background: #000;
+    color: green;
+}
+
+@media (max-width: 767px) {                  
+    #channelLogo {
+       display: none;
+    }
+ }
+
