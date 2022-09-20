@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: player-app
+  labels:
+    app: player-app
+spec:
+  selector:
+    app: player-app
+    tier: web
+  ports:
+  - port: 80
+    targetPort: 8080
+  type: LoadBalancer
+  loadBalancerIP: 34.142.167.187
