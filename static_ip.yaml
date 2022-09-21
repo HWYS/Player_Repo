@@ -7,9 +7,8 @@ metadata:
 spec:
   selector:
     app: player-app
-    tier: web
   ports:
-  - port: 8080
-    targetPort: 8080
+  - port: 80
+    targetPort: 80
   type: LoadBalancer
   loadBalancerIP: 34.124.136.171
