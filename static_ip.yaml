@@ -9,7 +9,7 @@ spec:
     app: player-app
     tier: web
   ports:
-  - port: 80
+  - port: 8080
     targetPort: 8080
   type: LoadBalancer
   loadBalancerIP: 34.124.136.171
