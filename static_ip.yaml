@@ -12,4 +12,4 @@ spec:
   - port: 80
     targetPort: 8080
   type: LoadBalancer
-  loadBalancerIP: 34.142.167.187
+  loadBalancerIP: 34.124.136.171
