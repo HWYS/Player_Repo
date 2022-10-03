@@ -10,7 +10,7 @@ metadata:
 spec:
   defaultBackend:
     service:
-      name: player-ingress
+      name: player-backend-service
       port:
         number: 8080
 ---
