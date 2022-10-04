@@ -9,14 +9,14 @@ metadata:
 spec:
   defaultBackend:
     service:
-      name: player-backend-service
+      name: player-app-service
       port:
         number: 8080
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: player-backend-service
+  name: player-app-service
   labels:
     app: player
 spec:
