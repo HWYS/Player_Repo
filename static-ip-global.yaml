@@ -20,9 +20,10 @@ metadata:
   labels:
     app: player
 spec:
-  type: NodePort
   selector:
-    app: player
+    app: player-app
   ports:
   - port: 80
-    targetPort: 8080
+    targetPort: 80
+  type: LoadBalancer
+  loadBalancerIP: 34.124.136.171
