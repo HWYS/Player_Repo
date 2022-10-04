@@ -18,7 +18,7 @@ kind: Service
 metadata:
   name: player-app-service
   labels:
-    app: player
+    app: player-app
 spec:
   selector:
     app: player-app
