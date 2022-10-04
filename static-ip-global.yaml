@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: player-ingress
@@ -16,7 +16,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: helloweb-backend
+  name: player-backend-service
   labels:
     app: player
 spec:
