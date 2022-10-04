@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-dns-service
+spec:
+  type: ExternalName
+  externalName: pl.starhubtvplus.com
+spec:
+  type: ExternalName
+  externalName: www.pl.starhubtvplus.com
