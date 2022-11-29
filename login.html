@@ -28,7 +28,11 @@
                     </div>
                     
                     <div class="d-grid">
-                        <button class="btn btn-primary" onclick="doLogIn();" type="submit">Login</button>
+                        <!--<button class="btn btn-primary" onclick="doLogIn()" type="submit">Login</button>-->
+                    </div>
+
+                    <div>
+                        <button onclick="myFunction()">Replace document</button>
                     </div>
                 </form>
                 
@@ -37,7 +41,7 @@
 
         <script>
             function doLogIn() {
-                var email = document.getElementsByName("email");
+                /*var email = document.getElementsByName("email");
                 var password = document.getElementsByName("password");
 
                 if(email.value == null || email.value == "") {
@@ -50,7 +54,18 @@
                     alert("Please enter password");
                     password.focus();
                     return false;
-                }
+                }*/
+                alert('Hello');
+                window.location.href = 'http://www.google.com';
+                //location.replace("https://www.w3schools.com");
+                //window.location.replace('https://pl.starhubtvplus.com');
+            }
+        </script>
+        <script>
+            function myFunction() {
+                window.location.assign("http://www.w3schools.com");
+                //window.location.href = 'http://www.google.com';
+              //location.replace("https://www.w3schools.com");
             }
         </script>
     </body>

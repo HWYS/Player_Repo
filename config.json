@@ -1,0 +1,39 @@
+{
+	"isLoginEnable": true,
+	"isEPLEnable": false,
+	"epl": [
+		{
+			"channelName": "Hub Premier1",
+			"hlsURL": "",
+			"dashURL": ""
+		},
+		{
+			"channelName": "Hub Premier1",
+			"hlsURL": "",
+			"dashURL": ""
+		},
+		{
+			"channelName": "Hub Premier1",
+			"hlsURL": "",
+			"dashURL": ""
+		},
+		{
+			"channelName": "Hub Premier1",
+			"hlsURL": "",
+			"dashURL": ""
+		}
+	],
+
+	"worldCup": [
+		{
+			"channelName": "Hub Premier1",
+			"hlsURL": "",
+			"dashURL": ""
+		},
+		{
+			"channelName": "Hub Premier1",
+			"hlsURL": "",
+			"dashURL": ""
+		}
+	]
+}

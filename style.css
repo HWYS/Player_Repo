@@ -23,9 +23,12 @@ option:hover{
     color: #c51f1f;
 }*/
 html, body {
-    min-height: 100%;
+    height: vh-25;
 }
- 
+
+.container {
+	height: vh-25;
+}
 select {
     line-height: 50px;
     font: inherit;
@@ -45,5 +48,11 @@ option:hover{
     #channelLogo {
        display: none;
     }
+
+    #player {
+        margin-top: 15px;
+    }
  }
+
+ 
 
